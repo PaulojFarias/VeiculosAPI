@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeiculosAPI.Domain", "Veicu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeiculosAPI.Infra", "VeiculosAPI.Infra\VeiculosAPI.Infra.csproj", "{C70C2533-5C7A-4BBA-B0C6-D816226372FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeiculosAPI.IntegrationTests", "VeiculosAPI.IntegrationTests\VeiculosAPI.IntegrationTests.csproj", "{1B46679D-F8B5-4909-AD41-569091B0F69A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{C70C2533-5C7A-4BBA-B0C6-D816226372FC}.Release|x64.Build.0 = Release|Any CPU
 		{C70C2533-5C7A-4BBA-B0C6-D816226372FC}.Release|x86.ActiveCfg = Release|Any CPU
 		{C70C2533-5C7A-4BBA-B0C6-D816226372FC}.Release|x86.Build.0 = Release|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Debug|x64.Build.0 = Debug|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Debug|x86.Build.0 = Debug|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Release|x64.ActiveCfg = Release|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Release|x64.Build.0 = Release|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Release|x86.ActiveCfg = Release|Any CPU
+		{1B46679D-F8B5-4909-AD41-569091B0F69A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
