@@ -40,18 +40,14 @@ Além dos requisitos funcionais, foram adicionados:
 #### 1.  Clone o repositório ou extraia os arquivos.
 #### 2.  Abra o terminal na pasta raiz da solução.
 #### 3.  Restaure as dependências e compile o projeto:
-    ```bash
     dotnet restore
     dotnet build
-    ```
-#### 4.  Execute a aplicação:
-    ```bash
-    dotnet run --project VeiculosAPI.WebApi/VeiculosAPI.WebApi.csproj --launch-profile "Development"
-    ```
-#### 5.  Acesse a documentação interativa (Swagger) em:
-    * `https://localhost:5001/swagger` (ou a porta indicada no seu terminal).
 
----
+#### 4.  Execute a aplicação:
+    dotnet run --project VeiculosAPI.WebApi/VeiculosAPI.WebApi.csproj --launch-profile "Development"
+
+#### 5.  Acesse a documentação interativa (Swagger) em:
+    https://localhost:5001/swagger (ou a porta indicada no seu terminal).
 
 ## 📌 Exemplos de Uso (JSON)
 
