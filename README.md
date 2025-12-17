@@ -34,20 +34,34 @@ Além dos requisitos funcionais, foram adicionados:
 ## ⚙️ Como Executar o Projeto
 
 ### Pré-requisitos
-* **SDK .NET 8** instalado (devido ao arquivo `global.json` presente na raiz que garante a consistência da versão).
+
+Para executar este projeto, você precisará apenas de:
+
+* **[SDK do .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)** (Obrigatório para compilar e rodar).
+* **Git** (Para clonar o repositório).
+
+> **Nota:** O projeto utiliza banco de dados em memória, eliminando a necessidade de instalar SQL Server ou Docker.
+
+#### Configuração de Certificado (Primeira Execução)
+Para evitar erros de SSL/HTTPS no navegador (aviso de "Sua conexão não é particular"), execute o comando abaixo no terminal uma única vez:
+
+    dotnet dev-certs https --trust
 
 ### Passo a Passo
 #### 1.  Clone o repositório ou extraia os arquivos.
 #### 2.  Abra o terminal na pasta raiz da solução.
-#### 3.  Restaure as dependências e compile o projeto:
+#### 3.  Restaure as dependências:
     dotnet restore
+#### 4.  Compile o projeto:
     dotnet build
 
-#### 4.  Execute a aplicação:
-    dotnet run --project VeiculosAPI.WebApi/VeiculosAPI.WebApi.csproj --environment Development
+#### 5.  Execute a aplicação:
+    dotnet run --project VeiculosAPI.WebApi/VeiculosAPI.WebApi.csproj --launch-profile "Development"
 
-#### 5.  Acesse a documentação interativa (Swagger) em:
+#### 6.  Acesse a documentação interativa (Swagger) em:
     https://localhost:5001/swagger (ou a porta indicada no seu terminal).
+
+---
 
 ## 📌 Exemplos de Uso (JSON)
 
