@@ -44,7 +44,7 @@ Além dos requisitos funcionais, foram adicionados:
     dotnet build
 
 #### 4.  Execute a aplicação:
-    dotnet run --project VeiculosAPI.WebApi/VeiculosAPI.WebApi.csproj --launch-profile "Development"
+    dotnet run --project VeiculosAPI.WebApi/VeiculosAPI.WebApi.csproj --environment Development
 
 #### 5.  Acesse a documentação interativa (Swagger) em:
     https://localhost:5001/swagger (ou a porta indicada no seu terminal).
